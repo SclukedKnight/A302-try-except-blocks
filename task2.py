@@ -19,3 +19,11 @@ The reciprocal of 3 is 0.3333333333333333
 Enter a number: 4
 The reciprocal of 4 is 0.25
 """
+
+number = input("Enter numver to determine the recipricoal: ")
+
+try:
+    number2 = 1 / float(number)
+    print(f"The recipricoal of {number} is {number2}")
+except:
+    print("There was an error with your input")
